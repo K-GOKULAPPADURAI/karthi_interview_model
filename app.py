@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Initialize Gemini model and chat
 
-genai.configure(api_key="AIzaSyC_yRWdfXMSrdsr6ynWNIyG6N1AIGiWxMY")
+genai.configure(api_key="AIzaSyDLcu2dQoNJB18Vx8J_N8xBGbss05Rxblw")
 model = genai.GenerativeModel("gemini-pro")
 chat = model.start_chat(history=[])
 
